@@ -1,0 +1,75 @@
+html, body{
+
+height: 100%;  /*altura*/
+margin: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: #1d0202;
+}
+
+.parallax1{
+    position: relative;
+    background-image: url("../img/pok1.jpg");
+    height: 100%;
+    opacity: 0.9;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box1{
+    background-color: orange;
+}
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+.caption span.border{
+    background-color: yellow;
+    color: black;
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 7px;
+}
+
+.parallax2{
+    position: relative;
+    background-image: url("../img/pok2.webp");
+    height: 100%;
+    opacity: 0.5;
+    background-attachment: fixed;
+    background-position: center ;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3{
+    position: relative;
+    background-image: url("../img/pok.webp");
+    height: 100%;
+    opacity: 0.5;
+    background-attachment: fixed;
+    background-position: center ;
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box1{
+    background-color: white;
+    text-align: justify;
+    padding: 50px 80px;
+}
+.box1 h3{
+    text-align: center;
+}
+
+.box2{
+    background-color: yellowgreen;
+    color: black;
+    text-align: center;
+    padding: 50px;
+}
